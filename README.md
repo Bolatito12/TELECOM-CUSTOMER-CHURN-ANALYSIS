@@ -14,6 +14,10 @@ This project is designed to transition the company's retention strategy from rea
 
 • Behavioral Objective: Increase customer service usage (e.g., Frequency of Use) by 15% for high-risk customers to boost loyalty
 
+## Data Used
+-	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/customer_churn%20(2).csv">Dataset</a>
+-	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/feature_importance%20(1).xlsx">Dataset</a>
+
 ##  Key Problems & Questions
 1. What is the overall churn rate among telecom customers?
 2. Which customer segments show the highest churn risk?
@@ -22,6 +26,6 @@ This project is designed to transition the company's retention strategy from rea
 5. How does customer tenure affect churn likelihood?
 6. Can we identify early warning signals of churn from customer activity?
 
-## Data Used
--	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/customer_churn%20(2).csv">Dataset</a>
--	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/feature_importance%20(1).xlsx">Dataset</a>
+##  Data Cleaning & Transformation
+#Import Libraries
+<img width="1837" height="318" alt="python code1" src="https://github.com/user-attachments/assets/d47f1a9a-a33c-4e47-8e81-7476563824d3" />
