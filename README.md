@@ -26,7 +26,7 @@ This project is designed to transition the company's retention strategy from rea
 5. How does customer tenure affect churn likelihood?
 6. Can we identify early warning signals of churn from customer activity?
 
-##  Data Cleaning & Transformation
+## Exploratory Data Analysis (EDA) 
 #Import Libraries
 <img width="1837" height="318" alt="python code1" src="https://github.com/user-attachments/assets/d47f1a9a-a33c-4e47-8e81-7476563824d3" />
 
@@ -38,5 +38,120 @@ This project is designed to transition the company's retention strategy from rea
 
 #check for missing values and duplicates
 <img width="1920" height="587" alt="python code 4" src="https://github.com/user-attachments/assets/d437cc40-4683-4bfd-bbcf-d48931529717" />
+.
+1. Univariate Analysis (Target + All Features)
 
+Goal:
+Understand the distribution and characteristics of each variable independently, without considering relationships between variables.
+
+# Target Variable
+
+Churn
+
+• Analyze class balance between churned and non-churned customers.
+
+• Check for class imbalance that may affect model performance.
+
+# Numeric Variables
+
+Checks Performed:
+
+• Distribution shape (skewed or symmetric)
+
+• Presence of outliers
+
+• Central tendency (mean, median)
+
+• Variability (variance or spread)
+
+#Variables Analyzed:
+
+• Call Failure
+
+• Subscription Length
+
+• Charge Amount
+
+• Seconds of Use
+
+• Frequency of Use
+
+• Frequency of SMS
+
+• Distinct Called Numbers
+
+• Customer Value
+
+• Age
+
+# Categorical / Ordinal Variables
+
+# Checks Performed:
+
+• Frequency counts
+
+• Proportions within each category
+
+# Variables Analyzed:
+
+• Complaints
+
+• Tariff Plan
+
+• Status
+
+• Age Group
+
+• Churn (target variable)
+
+2. # Bivariate Analysis (Feature vs Target)
+
+Goal:
+• Identify relationships between customer features and churn to understand which factors influence customer attrition.
+
+# Numeric Variables vs Churn
+
+# Analysis Focus:
+
+• Compare mean and median values for churned vs non-churned customers.
+
+• Identify whether higher or lower values increase churn likelihood.
+
+# Variables Compared Against Churn:
+
+• Call Failure
+
+• Subscription Length
+
+• Seconds of Use
+
+• Frequency of Use
+
+• Frequency of SMS
+
+• Distinct Called Numbers
+
+• Customer Value
+
+• Charge Amount
+
+• Age
+
+# Categorical Variables vs Churn
+
+# Analysis Focus:
+
+Compare churn rates across categories.
+
+• Identify groups with higher churn probability.
+
+• Variables Compared Against Churn:
+
+• Complaints
+
+• Tariff Plan
+
+• Status
+
+• Age Group
 
