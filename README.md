@@ -39,12 +39,12 @@ This project is designed to transition the company's retention strategy from rea
 #check for missing values and duplicates
 <img width="1920" height="587" alt="python code 4" src="https://github.com/user-attachments/assets/d437cc40-4683-4bfd-bbcf-d48931529717" />
 .
-1. Univariate Analysis (Target + All Features)
+## Univariate Analysis (Target + All Features)
 
 Goal:
 Understand the distribution and characteristics of each variable independently, without considering relationships between variables.
 
-# Target Variable
+## Target Variable
 
 Churn
 
@@ -52,7 +52,7 @@ Churn
 
 • Check for class imbalance that may affect model performance.
 
-# Numeric Variables
+## Numeric Variables
 
 Checks Performed:
 
@@ -64,7 +64,7 @@ Checks Performed:
 
 • Variability (variance or spread)
 
-#Variables Analyzed:
+## Variables Analyzed:
 
 • Call Failure
 
