@@ -38,120 +38,81 @@ This project is designed to transition the company's retention strategy from rea
 
 #check for missing values and duplicates
 <img width="1920" height="587" alt="python code 4" src="https://github.com/user-attachments/assets/d437cc40-4683-4bfd-bbcf-d48931529717" />
-.
+
 ## Univariate Analysis (Target + All Features)
 
 Goal:
-Understand the distribution and characteristics of each variable independently, without considering relationships between variables.
+Understand the distribution and behavior of each variable independently to identify patterns, imbalance, and potential data issues.
 
-## Target Variable
+## Target Variable: Churn
 
-Churn
+Insights:
 
-• Analyze class balance between churned and non-churned customers.
+• The dataset shows an imbalance between churned and non-churned customers, with a larger proportion of customers retained.
 
-• Check for class imbalance that may affect model performance.
+• This imbalance suggests that evaluation metrics beyond accuracy (e.g., precision, recall, F1-score) will be important during modeling.
 
 ## Numeric Variables
 
-Checks Performed:
+Variables Analyzed:
+• Call Failure, Subscription Length, Charge Amount, Seconds of Use, Frequency of Use, Frequency of SMS, Distinct Called Numbers, Customer Value, Age
 
-• Distribution shape (skewed or symmetric)
+Insights:
 
-• Presence of outliers
+• Most numeric variables are right-skewed, indicating that a small number of customers have very high usage or value.
 
-• Central tendency (mean, median)
+• Subscription Length is concentrated at lower values, suggesting many customers churn early in their lifecycle.
 
-• Variability (variance or spread)
+• Charge Amount and Customer Value show high variability, indicating heterogeneous customer spending behavior.
 
-## Variables Analyzed:
-
-• Call Failure
-
-• Subscription Length
-
-• Charge Amount
-
-• Seconds of Use
-
-• Frequency of Use
-
-• Frequency of SMS
-
-• Distinct Called Numbers
-
-• Customer Value
-
-• Age
+• Several variables exhibit outliers, which may represent either high-value customers or abnormal usage patterns and should be handled carefully.
 
 ## Categorical / Ordinal Variables
 
-## Checks Performed:
+Variables Analyzed:
+• Complaints, Tariff Plan, Status, Age Group
 
-• Frequency counts
+Insights:
 
-• Proportions within each category
+• The majority of customers fall into a small number of tariff plans, suggesting limited plan diversity.
 
-## Variables Analyzed:
+• Customers without complaints form the largest group, while a smaller but important segment has registered complaints.
 
-• Complaints
-
-• Tariff Plan
-
-• Status
-
-• Age Group
-
-• Churn (target variable)
+• Age Group distribution shows a higher concentration of customers in middle-aged groups, with fewer elderly customers.
 
 ## Bivariate Analysis (Feature vs Target)
 
 Goal:
-• Identify relationships between customer features and churn to understand which factors influence customer attrition.
+Identify which customer attributes are associated with higher churn risk and understand their influence on customer attrition.
 
 ## Numeric Variables vs Churn
 
-## Analysis Focus:
+Insights:
 
-• Compare mean and median values for churned vs non-churned customers.
+• Churned customers tend to have shorter subscription lengths, confirming that early-stage customers are more likely to leave.
 
-• Identify whether higher or lower values increase churn likelihood.
+• Higher call failure rates are associated with increased churn, highlighting the impact of service quality issues.
 
-## Variables Compared Against Churn:
+• Customers with lower seconds of use and lower frequency of use are more likely to churn, suggesting disengagement.
 
-• Call Failure
+• Higher charge amounts are linked to higher churn, indicating potential price sensitivity.
 
-• Subscription Length
+• Customer Value is generally lower among churned customers, suggesting churn is more common among less valuable customers.
 
-• Seconds of Use
-
-• Frequency of Use
-
-• Frequency of SMS
-
-• Distinct Called Numbers
-
-• Customer Value
-
-• Charge Amount
-
-• Age
+• Age shows a mild relationship with churn, with younger customers slightly more likely to churn.
 
 ## Categorical Variables vs Churn
 
-## Analysis Focus:
+Insights:
 
-Compare churn rates across categories.
+• Customers who have filed complaints exhibit significantly higher churn rates than those without complaints.
 
-• Identify groups with higher churn probability.
+• Certain tariff plans show noticeably higher churn, suggesting pricing or plan structure issues.
 
-• Variables Compared Against Churn:
+• Inactive or suspended customer status is strongly associated with churn.
 
-• Complaints
+• Younger age groups demonstrate higher churn rates compared to older groups, indicating lower loyalty.
 
-• Tariff Plan
-
-• Status
-
-• Age Group
+## Predictive model for feature importance 
+<img width="923" height="690" alt="python code 6" src="https://github.com/user-attachments/assets/512fc3af-a548-4892-bb71-0fff61486b82" />
 
