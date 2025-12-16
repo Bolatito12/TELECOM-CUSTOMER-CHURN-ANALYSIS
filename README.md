@@ -84,15 +84,15 @@ Checks Performed:
 
 • Age
 
-# Categorical / Ordinal Variables
+## Categorical / Ordinal Variables
 
-# Checks Performed:
+## Checks Performed:
 
 • Frequency counts
 
 • Proportions within each category
 
-# Variables Analyzed:
+## Variables Analyzed:
 
 • Complaints
 
@@ -104,20 +104,20 @@ Checks Performed:
 
 • Churn (target variable)
 
-2. # Bivariate Analysis (Feature vs Target)
+## Bivariate Analysis (Feature vs Target)
 
 Goal:
 • Identify relationships between customer features and churn to understand which factors influence customer attrition.
 
-# Numeric Variables vs Churn
+## Numeric Variables vs Churn
 
-# Analysis Focus:
+## Analysis Focus:
 
 • Compare mean and median values for churned vs non-churned customers.
 
 • Identify whether higher or lower values increase churn likelihood.
 
-# Variables Compared Against Churn:
+## Variables Compared Against Churn:
 
 • Call Failure
 
@@ -137,9 +137,9 @@ Goal:
 
 • Age
 
-# Categorical Variables vs Churn
+## Categorical Variables vs Churn
 
-# Analysis Focus:
+## Analysis Focus:
 
 Compare churn rates across categories.
 
