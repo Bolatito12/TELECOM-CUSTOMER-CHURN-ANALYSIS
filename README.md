@@ -21,3 +21,5 @@ This project is designed to transition the company's retention strategy from rea
 4. What is the relationship between usage patterns and churn?
 5. How does customer tenure affect churn likelihood?
 6. Can we identify early warning signals of churn from customer activity?
+
+-	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/customer_churn%20(2).csv">Dataset</a>
