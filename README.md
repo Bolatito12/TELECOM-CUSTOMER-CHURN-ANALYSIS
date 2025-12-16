@@ -33,6 +33,10 @@ This project is designed to transition the company's retention strategy from rea
 #Read file
 <img width="1765" height="172" alt="python code 2" src="https://github.com/user-attachments/assets/696128a1-29ed-4972-bf65-2c349f94d4ed" />
 
-#Check datatype
+#Check number of row and column and also datatype
 <img width="1719" height="363" alt="python code 3" src="https://github.com/user-attachments/assets/471ee3e9-a7ef-4420-af43-1f01a78b8ca0" />
+
+#check for missing values and duplicates
+<img width="1920" height="587" alt="python code 4" src="https://github.com/user-attachments/assets/d437cc40-4683-4bfd-bbcf-d48931529717" />
+
 
