@@ -22,4 +22,6 @@ This project is designed to transition the company's retention strategy from rea
 5. How does customer tenure affect churn likelihood?
 6. Can we identify early warning signals of churn from customer activity?
 
+## Data Used
 -	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/customer_churn%20(2).csv">Dataset</a>
+-	<a href="https://github.com/Bolatito12/TELECOM-CUSTOMER-CHURN-ANALYSIS/blob/main/feature_importance%20(1).xlsx">Dataset</a>
