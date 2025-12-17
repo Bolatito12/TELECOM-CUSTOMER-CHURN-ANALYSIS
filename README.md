@@ -4,8 +4,6 @@ This project is designed to transition the company's retention strategy from rea
 ## Project Objectives:
 • Financial Objective: Reduce the 16% Churn Rate to protect the $61.78K in Annual Revenue at Risk.
 
-• Predictive Objective: Build a machine learning model to assign a Churn Risk Score and achieve 80% accuracy in identifying at-risk customers.
-
 • Operational Objective: Prioritize fixing the 20+ Call Failure service threshold, the operational trigger causing significant churn spikes.
 
 • Targeted Objective: Increase the retention rate of the financially-critical 'High Value - Low Engagement' segment.
@@ -50,8 +48,6 @@ Insights:
 
 • The dataset shows an imbalance between churned and non-churned customers, with a larger proportion of customers retained.
 
-• This imbalance suggests that evaluation metrics beyond accuracy (e.g., precision, recall, F1-score) will be important during modeling.
-
 ## Numeric Variables
 
 Variables Analyzed:
@@ -65,7 +61,8 @@ Insights:
 
 • Charge Amount and Customer Value show high variability, indicating heterogeneous customer spending behavior.
 
-• Several variables exhibit outliers, which may represent either high-value customers or abnormal usage patterns and should be handled carefully.
+<img width="1218" height="913" alt="image" src="https://github.com/user-attachments/assets/f781a459-5b76-476b-be38-87ca1467ada0" />
+
 
 ## Categorical / Ordinal Variables
 
