@@ -37,16 +37,18 @@ This project is designed to transition the company's retention strategy from rea
 #check for missing values and duplicates
 <img width="1920" height="587" alt="python code 4" src="https://github.com/user-attachments/assets/d437cc40-4683-4bfd-bbcf-d48931529717" />
 
-## Univariate Analysis (Target + All Features)
-
-Goal:
-Understand the distribution and behavior of each variable independently to identify patterns, imbalance, and potential data issues.
-
 ## Target Variable: Churn
 
 Insights:
 
 • The dataset shows an imbalance between churned and non-churned customers, with a larger proportion of customers retained.
+<img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/80daf2dc-ae02-49cb-af22-578f4c5405ad" />
+
+
+## Univariate Analysis (Target + All Features)
+
+Goal:
+Understand the distribution and behavior of each variable independently to identify patterns, imbalance, and potential data issues.
 
 ## Numeric Variables
 
@@ -76,6 +78,14 @@ Insights:
 • Customers without complaints form the largest group, while a smaller but important segment has registered complaints.
 
 • Age Group distribution shows a higher concentration of customers in middle-aged groups, with fewer elderly customers.
+<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/548d9d29-2b09-4a95-a5cf-69aeb623f9e0" />
+<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/06ac3ec5-d0df-493e-a0e2-f70ac022f3ee" />
+<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/29456c90-b793-42a6-8f9d-e118cfccc673" />
+<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/1db26eb3-f45a-4a08-a4ac-4f62682b54f6" />
+
+
+
+
 
 ## Bivariate Analysis (Feature vs Target)
 
