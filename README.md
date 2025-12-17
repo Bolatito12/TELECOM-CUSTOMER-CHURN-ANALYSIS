@@ -140,3 +140,5 @@ Insights:
 ## Predictive model for feature importance 
 <img width="923" height="690" alt="python code 6" src="https://github.com/user-attachments/assets/512fc3af-a548-4892-bb71-0fff61486b82" />
 
+<img width="1729" height="649" alt="feature importance png" src="https://github.com/user-attachments/assets/e25acfd1-0e29-4651-bdb0-5a8726d64e53" />
+
