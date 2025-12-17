@@ -107,6 +107,15 @@ Insights:
 • Customer Value is generally lower among churned customers, suggesting churn is more common among less valuable customers.
 
 • Age shows a mild relationship with churn, with younger customers slightly more likely to churn.
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/38405424-4d12-49a7-9e92-7e4fb63393ab" />
+<img width="713" height="393" alt="image" src="https://github.com/user-attachments/assets/641d9304-0a4c-4f3b-a33b-09bbac5fbc7a" />
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/c691aeff-9eca-4f55-9a06-29ee441b6727" />
+<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/4248d19e-7d4d-42e9-ab24-ef311ded2dc3" />
+<img width="549" height="393" alt="image" src="https://github.com/user-attachments/assets/a85939d6-73b5-4b96-a48a-35e28d3ea844" />
+
+
+
+
 
 ## Categorical Variables vs Churn
 
@@ -119,6 +128,14 @@ Insights:
 • Inactive or suspended customer status is strongly associated with churn.
 
 • Younger age groups demonstrate higher churn rates compared to older groups, indicating lower loyalty.
+<img width="549" height="393" alt="image" src="https://github.com/user-attachments/assets/aa2a95a2-78b0-4715-bcd0-65bddbac08bf" />
+<img width="580" height="526" alt="image" src="https://github.com/user-attachments/assets/8ec8f703-c5af-4242-9225-2fb2acf66159" />
+<img width="580" height="526" alt="image" src="https://github.com/user-attachments/assets/efb1f052-05a8-47db-ab79-b981807ce248" />
+<img width="549" height="393" alt="image" src="https://github.com/user-attachments/assets/a2af2416-844b-40d7-8caa-ebb738f37951" />
+
+
+
+
 
 ## Predictive model for feature importance 
 <img width="923" height="690" alt="python code 6" src="https://github.com/user-attachments/assets/512fc3af-a548-4892-bb71-0fff61486b82" />
