@@ -142,3 +142,14 @@ Insights:
 
 <img width="1729" height="649" alt="feature importance png" src="https://github.com/user-attachments/assets/e25acfd1-0e29-4651-bdb0-5a8726d64e53" />
 
+## Business Recommendations 
+
+• Implement early-warning churn alerts using usage decline
+
+• Monitor call failure patterns in real time
+
+• Design engagement campaigns for low-usage customers
+
+• Strengthen onboarding for first 6 months
+
+• Prioritize service quality for high-value customers
