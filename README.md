@@ -143,9 +143,12 @@ Insights:
 <img width="1729" height="649" alt="feature importance png" src="https://github.com/user-attachments/assets/e25acfd1-0e29-4651-bdb0-5a8726d64e53" />
 
 ## Telecom Customer Churn Analysis Dashboard
-<img width="1216" height="690" alt="overview" src="https://github.com/user-attachments/assets/df86a2f5-e788-42b1-b77a-7c4c43fd399c" />
+<img width="1206" height="682" alt="overview" src="https://github.com/user-attachments/assets/824fc750-a646-45f7-b843-86f4af5a6845" />
+
+
 
 <img width="1205" height="679" alt="Behavior" src="https://github.com/user-attachments/assets/8e724b56-b7eb-4cc5-ad87-81334144d864" />
+
 
 <img width="1204" height="682" alt="Segments" src="https://github.com/user-attachments/assets/821e2e16-b9b2-40b4-8952-d99d05f09868" />
 
